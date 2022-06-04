@@ -372,6 +372,57 @@ footer .medias-sociais {
 
 
 /* Media Querys */
+
+@media only screen and (max-width: 769px) {
+    .slider {        
+        width: 600px;
+        height: 500px;        
+        border-radius: 8px;
+    }       
+    
+    .slide .slide-info {
+        padding: 10px 20px;
+        width: 600px;
+        height: 50%;       
+    }
+    
+    .slide .slide-info h1 {
+        font-size: 26px;
+    }
+
+    .slide .slide-info h2 {
+        font-size: 16px;
+    }
+
+    .slide .slide-info p {
+        line-height: 1.2;
+        font-size: 14px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .slide .slide-info a {
+        font-size: 24px;
+    }    
+
+    .slide .slide-img {
+        width: 600px;
+        height: 300px;
+    }
+
+    .navigation-manual {
+        width: 600px;
+    }
+            
+    .navigation {       
+        width: 600px;
+        margin-top: 450px;        
+    }
+
+    footer h2 {
+        font-size: 26px;
+    }
+}
 @media only screen and (max-width: 426px) {   
     
     #portfolio .portfolio-header img{
@@ -457,57 +508,7 @@ footer .medias-sociais {
     } 
 }
 
-@media only screen and (max-width: 769px) {
-    .slider {        
-        width: 600px;
-        height: 500px;        
-        border-radius: 8px;
-    }       
-    
-    .slide .slide-info {
-        padding: 10px 20px;
-        width: 600px;
-        height: 50%;       
-    }
-    
-    .slide .slide-info h1 {
-        font-size: 26px;
-    }
 
-    .slide .slide-info h2 {
-        font-size: 16px;
-    }
-
-    .slide .slide-info p {
-        line-height: 1.2;
-        font-size: 14px;
-        text-align: justify;
-        padding-right: 10px;
-    }
-
-    .slide .slide-info a {
-        font-size: 24px;
-    }    
-
-    .slide .slide-img {
-        width: 600px;
-        height: 300px;
-    }
-
-    .navigation-manual {
-        width: 600px;
-    }
-            
-    .navigation {       
-        width: 600px;
-        margin-top: 450px;        
-    }
-
-    footer h2 {
-        font-size: 26px;
-    }
-
-}
 
 /*
 
